@@ -17,3 +17,8 @@
 &i2s6_8ch {
 	status = "okay";
 };
+
+&sdhci {
+        max-frequency = <150000000>;
+	status = "okay";
+};
