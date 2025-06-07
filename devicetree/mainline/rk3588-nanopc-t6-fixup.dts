@@ -19,6 +19,11 @@
 };
 
 &sdhci {
+        bus-width = <8>;
+        no-sdio;
+        no-sd;
+        non-removable;
         max-frequency = <150000000>;
-	status = "okay";
-};
+        mmc-hs200-1_8v;
+        status = "okay";
+};                      
